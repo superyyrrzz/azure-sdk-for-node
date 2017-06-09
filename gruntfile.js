@@ -25,7 +25,7 @@ module.exports = function(grunt) {
     template: 'node_modules/minami',
     configure: 'jsdocs/jsdoc.conf.json',
   };
-  var servicePackages = glob.sync('lib/**/package.json', {ignore: 'lib/services/webSiteManagement2/package.json'});
+  var servicePackages = glob.sync('lib/services/HDInsight2/package.json', {ignore: 'lib/services/webSiteManagement2/package.json'});
   var runtimePackages = glob.sync('runtime/**/package.json', {ignore: 'runtime/**/test/package.json'});
   var packages = servicePackages.concat(runtimePackages);
   var sources = _.map(packages, function(pack) {
