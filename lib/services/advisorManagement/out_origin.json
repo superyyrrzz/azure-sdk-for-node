@@ -1,0 +1,3145 @@
+[
+  {
+    "id": "AdvisorManagementClient()",
+    "longname": "AdvisorManagementClient",
+    "name": "AdvisorManagementClient",
+    "kind": "constructor",
+    "memberof": "AdvisorManagementClient",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "credentials"
+          ]
+        },
+        "description": "Credentials needed for the client to connect to Azure.",
+        "name": "credentials"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "description": "The Azure subscription ID.",
+        "name": "subscriptionId"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "optional": true,
+        "description": "The base URI of the service.",
+        "name": "baseUri"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "The parameter options",
+        "name": "options"
+      },
+      {
+        "type": {
+          "names": [
+            "Array"
+          ]
+        },
+        "optional": true,
+        "description": "Filters to be added to the request pipeline",
+        "name": "options.filters"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Options for the underlying request object\r{@link https://github.com/request/request#requestoptions-callback Options doc}",
+        "name": "options.requestOptions"
+      },
+      {
+        "type": {
+          "names": [
+            "boolean"
+          ]
+        },
+        "optional": true,
+        "description": "If set to true, turn off default retry policy",
+        "name": "options.noRetryPolicy"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "optional": true,
+        "description": "The version of the API to be used with the client request.",
+        "name": "options.apiVersion"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "optional": true,
+        "description": "Gets or sets the preferred language for the response.",
+        "name": "options.acceptLanguage"
+      },
+      {
+        "type": {
+          "names": [
+            "number"
+          ]
+        },
+        "optional": true,
+        "description": "Gets or sets the retry timeout in seconds for Long Running Operations. Default value is 30.",
+        "name": "options.longRunningOperationRetryTimeout"
+      },
+      {
+        "type": {
+          "names": [
+            "boolean"
+          ]
+        },
+        "optional": true,
+        "description": "When set to true a unique x-ms-client-request-id value is generated and included in each request. Default is true.",
+        "name": "options.generateClientRequestId"
+      }
+    ],
+    "order": 1
+  },
+  {
+    "id": "Operations()",
+    "longname": "Operations",
+    "name": "Operations",
+    "kind": "constructor",
+    "memberof": "Operations",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "AdvisorManagementClient"
+          ]
+        },
+        "description": "Reference to the service client.",
+        "name": "client"
+      }
+    ],
+    "order": 21
+  },
+  {
+    "id": "Recommendations()",
+    "longname": "Recommendations",
+    "name": "Recommendations",
+    "kind": "constructor",
+    "memberof": "Recommendations",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "AdvisorManagementClient"
+          ]
+        },
+        "description": "Reference to the service client.",
+        "name": "client"
+      }
+    ],
+    "order": 32
+  },
+  {
+    "id": "Suppressions()",
+    "longname": "Suppressions",
+    "name": "Suppressions",
+    "kind": "constructor",
+    "memberof": "Suppressions",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "AdvisorManagementClient"
+          ]
+        },
+        "description": "Reference to the service client.",
+        "name": "client"
+      }
+    ],
+    "order": 48
+  },
+  {
+    "id": "AdvisorManagementClient",
+    "longname": "AdvisorManagementClient",
+    "name": "AdvisorManagementClient",
+    "kind": "class",
+    "scope": "global",
+    "description": "Initializes a new instance of the AdvisorManagementClient class.",
+    "meta": {
+      "lineno": 54,
+      "filename": "advisorManagementClient.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib"
+    },
+    "order": 0
+  },
+  {
+    "id": "Operations",
+    "longname": "Operations",
+    "name": "Operations",
+    "kind": "class",
+    "scope": "global",
+    "description": "Operations\r__NOTE__: An instance of this class is automatically created for an\rinstance of the AdvisorManagementClient.\rInitializes a new instance of the Operations class.",
+    "meta": {
+      "lineno": 285,
+      "filename": "operations.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\operations"
+    },
+    "order": 20
+  },
+  {
+    "id": "Recommendations",
+    "longname": "Recommendations",
+    "name": "Recommendations",
+    "kind": "class",
+    "scope": "global",
+    "description": "Recommendations\r__NOTE__: An instance of this class is automatically created for an\rinstance of the AdvisorManagementClient.\rInitializes a new instance of the Recommendations class.",
+    "meta": {
+      "lineno": 704,
+      "filename": "recommendations.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\operations"
+    },
+    "order": 31
+  },
+  {
+    "id": "Suppressions",
+    "longname": "Suppressions",
+    "name": "Suppressions",
+    "kind": "class",
+    "scope": "global",
+    "description": "Suppressions\r__NOTE__: An instance of this class is automatically created for an\rinstance of the AdvisorManagementClient.\rInitializes a new instance of the Suppressions class.",
+    "meta": {
+      "lineno": 630,
+      "filename": "suppressions.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\operations"
+    },
+    "order": 47
+  },
+  {
+    "id": "resource",
+    "longname": "resource",
+    "name": "resource",
+    "kind": "member",
+    "scope": "global",
+    "classdesc": "Initializes a new instance of the OperationDisplayInfo class.",
+    "description": "The description of the operation.",
+    "type": {
+      "names": [
+        "string"
+      ]
+    },
+    "optional": true,
+    "meta": {
+      "lineno": 13,
+      "filename": "operationDisplayInfo.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\models"
+    },
+    "order": 2
+  },
+  {
+    "id": "nextLink",
+    "longname": "nextLink",
+    "name": "nextLink",
+    "kind": "member",
+    "scope": "global",
+    "classdesc": "Initializes a new instance of the OperationEntityListResult class.",
+    "description": "The link used to get the next page of\roperations.",
+    "type": {
+      "names": [
+        "string"
+      ]
+    },
+    "optional": true,
+    "meta": {
+      "lineno": 13,
+      "filename": "operationEntityListResult.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\models"
+    },
+    "order": 6
+  },
+  {
+    "id": "type",
+    "longname": "type",
+    "name": "type",
+    "kind": "member",
+    "scope": "global",
+    "classdesc": "Initializes a new instance of the Resource class.",
+    "description": "The resource ID.",
+    "type": {
+      "names": [
+        "string"
+      ]
+    },
+    "optional": true,
+    "meta": {
+      "lineno": 15,
+      "filename": "resource.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\models"
+    },
+    "order": 8
+  },
+  {
+    "id": "suppressionIds",
+    "longname": "suppressionIds",
+    "name": "suppressionIds",
+    "kind": "member",
+    "scope": "global",
+    "classdesc": "Initializes a new instance of the ResourceRecommendationBase class.",
+    "description": "The category of the recommendation. Possible\rvalues include: 'HighAvailability', 'Security', 'Performance', 'Cost'",
+    "type": {
+      "names": [
+        "string"
+      ]
+    },
+    "optional": true,
+    "meta": {
+      "lineno": 15,
+      "filename": "resourceRecommendationBase.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\models"
+    },
+    "order": 10
+  },
+  {
+    "id": "nextLink",
+    "longname": "nextLink",
+    "name": "nextLink",
+    "kind": "member",
+    "scope": "global",
+    "classdesc": "Initializes a new instance of the ResourceRecommendationBaseListResult class.",
+    "description": "The link used to get the next page of\rrecommendations.",
+    "type": {
+      "names": [
+        "string"
+      ]
+    },
+    "optional": true,
+    "meta": {
+      "lineno": 13,
+      "filename": "resourceRecommendationBaseListResult.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\models"
+    },
+    "order": 12
+  },
+  {
+    "id": "solution",
+    "longname": "solution",
+    "name": "solution",
+    "kind": "member",
+    "scope": "global",
+    "classdesc": "Initializes a new instance of the ShortDescription class.",
+    "description": "The issue or opportunity identified by the\rrecommendation.",
+    "type": {
+      "names": [
+        "string"
+      ]
+    },
+    "optional": true,
+    "meta": {
+      "lineno": 13,
+      "filename": "shortDescription.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\models"
+    },
+    "order": 14
+  },
+  {
+    "id": "ttl",
+    "longname": "ttl",
+    "name": "ttl",
+    "kind": "member",
+    "scope": "global",
+    "classdesc": "Initializes a new instance of the SuppressionContract class.",
+    "description": "The GUID of the suppression.",
+    "type": {
+      "names": [
+        "string"
+      ]
+    },
+    "optional": true,
+    "meta": {
+      "lineno": 15,
+      "filename": "suppressionContract.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\models"
+    },
+    "order": 16
+  },
+  {
+    "id": "_list",
+    "longname": "_list",
+    "name": "_list",
+    "kind": "function",
+    "scope": "global",
+    "description": "Lists all the available Advisor REST API operations.",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Optional Parameters.",
+        "name": "options"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Headers that will be added to the\rrequest",
+        "name": "options.customHeaders"
+      },
+      {
+        "type": {
+          "names": [
+            "function"
+          ]
+        },
+        "description": "The callback.",
+        "name": "callback"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "function"
+          ]
+        },
+        "description": "callback(err, result, request, response)\r\r                     {Error}  err        - The Error object if an error occurred, null otherwise.\r\r                     {object} [result]   - The deserialized result object if an error did not occur.\r                     See {@link OperationEntityListResult} for more\r                     information.\r\r                     {object} [request]  - The HTTP Request object if an error did not occur.\r\r                     {stream} [response] - The HTTP Response stream if an error did not occur."
+      }
+    ],
+    "meta": {
+      "lineno": 39,
+      "filename": "operations.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\operations"
+    },
+    "order": 18
+  },
+  {
+    "id": "_listNext",
+    "longname": "_listNext",
+    "name": "_listNext",
+    "kind": "function",
+    "scope": "global",
+    "description": "Lists all the available Advisor REST API operations.",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "description": "The NextLink from the previous successful call\rto List operation.",
+        "name": "nextPageLink"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Optional Parameters.",
+        "name": "options"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Headers that will be added to the\rrequest",
+        "name": "options.customHeaders"
+      },
+      {
+        "type": {
+          "names": [
+            "function"
+          ]
+        },
+        "description": "The callback.",
+        "name": "callback"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "function"
+          ]
+        },
+        "description": "callback(err, result, request, response)\r\r                     {Error}  err        - The Error object if an error occurred, null otherwise.\r\r                     {object} [result]   - The deserialized result object if an error did not occur.\r                     See {@link OperationEntityListResult} for more\r                     information.\r\r                     {object} [request]  - The HTTP Request object if an error did not occur.\r\r                     {stream} [response] - The HTTP Response stream if an error did not occur."
+      }
+    ],
+    "meta": {
+      "lineno": 172,
+      "filename": "operations.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\operations"
+    },
+    "order": 19
+  },
+  {
+    "id": "_generate",
+    "longname": "_generate",
+    "name": "_generate",
+    "kind": "function",
+    "scope": "global",
+    "description": "Initiates the recommendation generation or computation process for a\rsubscription. This operation is asynchronous. The generated recommendations\rare stored in a cache in the Advisor service.",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Optional Parameters.",
+        "name": "options"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Headers that will be added to the\rrequest",
+        "name": "options.customHeaders"
+      },
+      {
+        "type": {
+          "names": [
+            "function"
+          ]
+        },
+        "description": "The callback.",
+        "name": "callback"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "function"
+          ]
+        },
+        "description": "callback(err, result, request, response)\r\r                     {Error}  err        - The Error object if an error occurred, null otherwise.\r\r                     {null} [result]   - The deserialized result object if an error did not occur.\r\r                     {object} [request]  - The HTTP Request object if an error did not occur.\r\r                     {stream} [response] - The HTTP Response stream if an error did not occur."
+      }
+    ],
+    "meta": {
+      "lineno": 39,
+      "filename": "recommendations.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\operations"
+    },
+    "order": 26
+  },
+  {
+    "id": "_getGenerateStatus",
+    "longname": "_getGenerateStatus",
+    "name": "_getGenerateStatus",
+    "kind": "function",
+    "scope": "global",
+    "description": "Retrieves the status of the recommendation computation or generation\rprocess. Invoke this API after calling the generation recommendation. The\rURI of this API is returned in the Location field of the response header.",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "uuid"
+          ]
+        },
+        "description": "The operation ID, which can be found from the\rLocation field in the generate recommendation response header.",
+        "name": "operationId"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Optional Parameters.",
+        "name": "options"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Headers that will be added to the\rrequest",
+        "name": "options.customHeaders"
+      },
+      {
+        "type": {
+          "names": [
+            "function"
+          ]
+        },
+        "description": "The callback.",
+        "name": "callback"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "function"
+          ]
+        },
+        "description": "callback(err, result, request, response)\r\r                     {Error}  err        - The Error object if an error occurred, null otherwise.\r\r                     {null} [result]   - The deserialized result object if an error did not occur.\r\r                     {object} [request]  - The HTTP Request object if an error did not occur.\r\r                     {stream} [response] - The HTTP Response stream if an error did not occur."
+      }
+    ],
+    "meta": {
+      "lineno": 159,
+      "filename": "recommendations.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\operations"
+    },
+    "order": 27
+  },
+  {
+    "id": "_list",
+    "longname": "_list",
+    "name": "_list",
+    "kind": "function",
+    "scope": "global",
+    "description": "Obtains cached recommendations for a subscription. The recommendations are\rgenerated or computed by invoking generateRecommendations.",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Optional Parameters.",
+        "name": "options"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "optional": true,
+        "description": "The filter to apply to the recommendations.",
+        "name": "options.filter"
+      },
+      {
+        "type": {
+          "names": [
+            "number"
+          ]
+        },
+        "optional": true,
+        "description": "The number of recommendations per page if a\rpaged version of this API is being used.",
+        "name": "options.top"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "optional": true,
+        "description": "The page-continuation token to use with\ra paged version of this API.",
+        "name": "options.skipToken"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Headers that will be added to the\rrequest",
+        "name": "options.customHeaders"
+      },
+      {
+        "type": {
+          "names": [
+            "function"
+          ]
+        },
+        "description": "The callback.",
+        "name": "callback"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "function"
+          ]
+        },
+        "description": "callback(err, result, request, response)\r\r                     {Error}  err        - The Error object if an error occurred, null otherwise.\r\r                     {object} [result]   - The deserialized result object if an error did not occur.\r                     See {@link ResourceRecommendationBaseListResult} for\r                     more information.\r\r                     {object} [request]  - The HTTP Request object if an error did not occur.\r\r                     {stream} [response] - The HTTP Response stream if an error did not occur."
+      }
+    ],
+    "meta": {
+      "lineno": 289,
+      "filename": "recommendations.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\operations"
+    },
+    "order": 28
+  },
+  {
+    "id": "_get",
+    "longname": "_get",
+    "name": "_get",
+    "kind": "function",
+    "scope": "global",
+    "description": "Obtains details of a cached recommendation.",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "description": "The fully qualified Azure Resource Manager\ridentifier of the resource to which the recommendation applies.",
+        "name": "resourceUri"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "description": "The recommendation ID.",
+        "name": "recommendationId"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Optional Parameters.",
+        "name": "options"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Headers that will be added to the\rrequest",
+        "name": "options.customHeaders"
+      },
+      {
+        "type": {
+          "names": [
+            "function"
+          ]
+        },
+        "description": "The callback.",
+        "name": "callback"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "function"
+          ]
+        },
+        "description": "callback(err, result, request, response)\r\r                     {Error}  err        - The Error object if an error occurred, null otherwise.\r\r                     {object} [result]   - The deserialized result object if an error did not occur.\r                     See {@link ResourceRecommendationBase} for more\r                     information.\r\r                     {object} [request]  - The HTTP Request object if an error did not occur.\r\r                     {stream} [response] - The HTTP Response stream if an error did not occur."
+      }
+    ],
+    "meta": {
+      "lineno": 449,
+      "filename": "recommendations.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\operations"
+    },
+    "order": 29
+  },
+  {
+    "id": "_listNext",
+    "longname": "_listNext",
+    "name": "_listNext",
+    "kind": "function",
+    "scope": "global",
+    "description": "Obtains cached recommendations for a subscription. The recommendations are\rgenerated or computed by invoking generateRecommendations.",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "description": "The NextLink from the previous successful call\rto List operation.",
+        "name": "nextPageLink"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Optional Parameters.",
+        "name": "options"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Headers that will be added to the\rrequest",
+        "name": "options.customHeaders"
+      },
+      {
+        "type": {
+          "names": [
+            "function"
+          ]
+        },
+        "description": "The callback.",
+        "name": "callback"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "function"
+          ]
+        },
+        "description": "callback(err, result, request, response)\r\r                     {Error}  err        - The Error object if an error occurred, null otherwise.\r\r                     {object} [result]   - The deserialized result object if an error did not occur.\r                     See {@link ResourceRecommendationBaseListResult} for\r                     more information.\r\r                     {object} [request]  - The HTTP Request object if an error did not occur.\r\r                     {stream} [response] - The HTTP Response stream if an error did not occur."
+      }
+    ],
+    "meta": {
+      "lineno": 591,
+      "filename": "recommendations.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\operations"
+    },
+    "order": 30
+  },
+  {
+    "id": "_get",
+    "longname": "_get",
+    "name": "_get",
+    "kind": "function",
+    "scope": "global",
+    "description": "Obtains the details of a suppression.",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "description": "The fully qualified Azure Resource Manager\ridentifier of the resource to which the recommendation applies.",
+        "name": "resourceUri"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "description": "The recommendation ID.",
+        "name": "recommendationId"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "description": "The name of the suppression.",
+        "name": "name"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Optional Parameters.",
+        "name": "options"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Headers that will be added to the\rrequest",
+        "name": "options.customHeaders"
+      },
+      {
+        "type": {
+          "names": [
+            "function"
+          ]
+        },
+        "description": "The callback.",
+        "name": "callback"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "function"
+          ]
+        },
+        "description": "callback(err, result, request, response)\r\r                     {Error}  err        - The Error object if an error occurred, null otherwise.\r\r                     {object} [result]   - The deserialized result object if an error did not occur.\r                     See {@link SuppressionContract} for more information.\r\r                     {object} [request]  - The HTTP Request object if an error did not occur.\r\r                     {stream} [response] - The HTTP Response stream if an error did not occur."
+      }
+    ],
+    "meta": {
+      "lineno": 45,
+      "filename": "suppressions.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\operations"
+    },
+    "order": 43
+  },
+  {
+    "id": "_create",
+    "longname": "_create",
+    "name": "_create",
+    "kind": "function",
+    "scope": "global",
+    "description": "Enables the snoozed or dismissed attribute of a recommendation. The snoozed\ror dismissed attribute is referred to as a suppression. Use this API to\rcreate or update the snoozed or dismissed status of a recommendation.",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "description": "The fully qualified Azure Resource Manager\ridentifier of the resource to which the recommendation applies.",
+        "name": "resourceUri"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "description": "The recommendation ID.",
+        "name": "recommendationId"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "description": "The name of the suppression.",
+        "name": "name"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "description": "The snoozed or dismissed attribute; for\rexample, the snooze duration.",
+        "name": "suppressionContract"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "optional": true,
+        "description": "The GUID of the\rsuppression.",
+        "name": "suppressionContract.suppressionId"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "optional": true,
+        "description": "The duration for which the\rsuppression is valid.",
+        "name": "suppressionContract.ttl"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Optional Parameters.",
+        "name": "options"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Headers that will be added to the\rrequest",
+        "name": "options.customHeaders"
+      },
+      {
+        "type": {
+          "names": [
+            "function"
+          ]
+        },
+        "description": "The callback.",
+        "name": "callback"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "function"
+          ]
+        },
+        "description": "callback(err, result, request, response)\r\r                     {Error}  err        - The Error object if an error occurred, null otherwise.\r\r                     {object} [result]   - The deserialized result object if an error did not occur.\r                     See {@link SuppressionContract} for more information.\r\r                     {object} [request]  - The HTTP Request object if an error did not occur.\r\r                     {stream} [response] - The HTTP Response stream if an error did not occur."
+      }
+    ],
+    "meta": {
+      "lineno": 204,
+      "filename": "suppressions.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\operations"
+    },
+    "order": 44
+  },
+  {
+    "id": "_deleteMethod",
+    "longname": "_deleteMethod",
+    "name": "_deleteMethod",
+    "kind": "function",
+    "scope": "global",
+    "description": "Enables the activation of a snoozed or dismissed recommendation. The snoozed\ror dismissed attribute of a recommendation is referred to as a suppression.",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "description": "The fully qualified Azure Resource Manager\ridentifier of the resource to which the recommendation applies.",
+        "name": "resourceUri"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "description": "The recommendation ID.",
+        "name": "recommendationId"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "description": "The name of the suppression.",
+        "name": "name"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Optional Parameters.",
+        "name": "options"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Headers that will be added to the\rrequest",
+        "name": "options.customHeaders"
+      },
+      {
+        "type": {
+          "names": [
+            "function"
+          ]
+        },
+        "description": "The callback.",
+        "name": "callback"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "function"
+          ]
+        },
+        "description": "callback(err, result, request, response)\r\r                     {Error}  err        - The Error object if an error occurred, null otherwise.\r\r                     {null} [result]   - The deserialized result object if an error did not occur.\r\r                     {object} [request]  - The HTTP Request object if an error did not occur.\r\r                     {stream} [response] - The HTTP Response stream if an error did not occur."
+      }
+    ],
+    "meta": {
+      "lineno": 369,
+      "filename": "suppressions.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\operations"
+    },
+    "order": 45
+  },
+  {
+    "id": "_list",
+    "longname": "_list",
+    "name": "_list",
+    "kind": "function",
+    "scope": "global",
+    "description": "Retrieves the list of snoozed or dismissed suppressions for a subscription.\rThe snoozed or dismissed attribute of a recommendation is referred to as a\rsuppression.",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Optional Parameters.",
+        "name": "options"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Headers that will be added to the\rrequest",
+        "name": "options.customHeaders"
+      },
+      {
+        "type": {
+          "names": [
+            "function"
+          ]
+        },
+        "description": "The callback.",
+        "name": "callback"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "function"
+          ]
+        },
+        "description": "callback(err, result, request, response)\r\r                     {Error}  err        - The Error object if an error occurred, null otherwise.\r\r                     {array} [result]   - The deserialized result object if an error did not occur.\r\r                     {object} [request]  - The HTTP Request object if an error did not occur.\r\r                     {stream} [response] - The HTTP Response stream if an error did not occur."
+      }
+    ],
+    "meta": {
+      "lineno": 494,
+      "filename": "suppressions.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\operations"
+    },
+    "order": 46
+  },
+  {
+    "id": "OperationDisplayInfo#mapper",
+    "longname": "OperationDisplayInfo#mapper",
+    "name": "mapper",
+    "kind": "function",
+    "scope": "instance",
+    "description": "Defines the metadata of OperationDisplayInfo",
+    "memberof": "OperationDisplayInfo",
+    "params": [],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "description": "metadata of OperationDisplayInfo"
+      }
+    ],
+    "meta": {
+      "lineno": 39,
+      "filename": "operationDisplayInfo.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\models"
+    },
+    "order": 3
+  },
+  {
+    "id": "OperationEntity#mapper",
+    "longname": "OperationEntity#mapper",
+    "name": "mapper",
+    "kind": "function",
+    "scope": "instance",
+    "description": "Defines the metadata of OperationEntity",
+    "memberof": "OperationEntity",
+    "params": [],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "description": "metadata of OperationEntity"
+      }
+    ],
+    "meta": {
+      "lineno": 46,
+      "filename": "operationEntity.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\models"
+    },
+    "order": 5
+  },
+  {
+    "id": "OperationEntityListResult#mapper",
+    "longname": "OperationEntityListResult#mapper",
+    "name": "mapper",
+    "kind": "function",
+    "scope": "instance",
+    "description": "Defines the metadata of OperationEntityListResult",
+    "memberof": "OperationEntityListResult",
+    "params": [],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "description": "metadata of OperationEntityListResult"
+      }
+    ],
+    "meta": {
+      "lineno": 34,
+      "filename": "operationEntityListResult.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\models"
+    },
+    "order": 7
+  },
+  {
+    "id": "Resource#mapper",
+    "longname": "Resource#mapper",
+    "name": "mapper",
+    "kind": "function",
+    "scope": "instance",
+    "description": "Defines the metadata of Resource",
+    "memberof": "Resource",
+    "params": [],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "description": "metadata of Resource"
+      }
+    ],
+    "meta": {
+      "lineno": 39,
+      "filename": "resource.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\models"
+    },
+    "order": 9
+  },
+  {
+    "id": "ResourceRecommendationBase#mapper",
+    "longname": "ResourceRecommendationBase#mapper",
+    "name": "mapper",
+    "kind": "function",
+    "scope": "instance",
+    "description": "Defines the metadata of ResourceRecommendationBase",
+    "memberof": "ResourceRecommendationBase",
+    "params": [],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "description": "metadata of ResourceRecommendationBase"
+      }
+    ],
+    "meta": {
+      "lineno": 64,
+      "filename": "resourceRecommendationBase.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\models"
+    },
+    "order": 11
+  },
+  {
+    "id": "ResourceRecommendationBaseListResult#mapper",
+    "longname": "ResourceRecommendationBaseListResult#mapper",
+    "name": "mapper",
+    "kind": "function",
+    "scope": "instance",
+    "description": "Defines the metadata of ResourceRecommendationBaseListResult",
+    "memberof": "ResourceRecommendationBaseListResult",
+    "params": [],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "description": "metadata of ResourceRecommendationBaseListResult"
+      }
+    ],
+    "meta": {
+      "lineno": 34,
+      "filename": "resourceRecommendationBaseListResult.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\models"
+    },
+    "order": 13
+  },
+  {
+    "id": "ShortDescription#mapper",
+    "longname": "ShortDescription#mapper",
+    "name": "mapper",
+    "kind": "function",
+    "scope": "instance",
+    "description": "Defines the metadata of ShortDescription",
+    "memberof": "ShortDescription",
+    "params": [],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "description": "metadata of ShortDescription"
+      }
+    ],
+    "meta": {
+      "lineno": 36,
+      "filename": "shortDescription.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\models"
+    },
+    "order": 15
+  },
+  {
+    "id": "SuppressionContract#mapper",
+    "longname": "SuppressionContract#mapper",
+    "name": "mapper",
+    "kind": "function",
+    "scope": "instance",
+    "description": "Defines the metadata of SuppressionContract",
+    "memberof": "SuppressionContract",
+    "params": [],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "description": "metadata of SuppressionContract"
+      }
+    ],
+    "meta": {
+      "lineno": 38,
+      "filename": "suppressionContract.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\models"
+    },
+    "order": 17
+  },
+  {
+    "id": "Operations#listWithHttpOperationResponse",
+    "longname": "Operations#listWithHttpOperationResponse",
+    "name": "listWithHttpOperationResponse",
+    "kind": "function",
+    "scope": "instance",
+    "description": "Lists all the available Advisor REST API operations.",
+    "memberof": "Operations",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Optional Parameters.",
+        "name": "options"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Headers that will be added to the\rrequest",
+        "name": "options.customHeaders"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "Promise"
+          ]
+        },
+        "description": "A promise is returned"
+      }
+    ],
+    "customTags": [
+      {
+        "tag": "resolve",
+        "value": "{HttpOperationResponse<OperationEntityListResult>} - The deserialized result object."
+      },
+      {
+        "tag": "reject",
+        "value": "{Error} - The error object."
+      }
+    ],
+    "meta": {
+      "lineno": 306,
+      "filename": "operations.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\operations"
+    },
+    "order": 22
+  },
+  {
+    "id": "Operations#list",
+    "longname": "Operations#list",
+    "name": "list",
+    "kind": "function",
+    "scope": "instance",
+    "description": "Lists all the available Advisor REST API operations.",
+    "memberof": "Operations",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Optional Parameters.",
+        "name": "options"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Headers that will be added to the\rrequest",
+        "name": "options.customHeaders"
+      },
+      {
+        "type": {
+          "names": [
+            "function"
+          ]
+        },
+        "optional": true,
+        "description": "The optional callback.",
+        "name": "optionalCallback"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "function",
+            "Promise"
+          ]
+        },
+        "description": "If a callback was passed as the last parameter\rthen it returns the callback else returns a Promise.\r\r{Promise} A promise is returned"
+      }
+    ],
+    "customTags": [
+      {
+        "tag": "resolve",
+        "value": "{OperationEntityListResult} - The deserialized result object."
+      },
+      {
+        "tag": "reject",
+        "value": "{Error} - The error object.\r\r{function} optionalCallback(err, result, request, response)\r\r                     {Error}  err        - The Error object if an error occurred, null otherwise.\r\r                     {object} [result]   - The deserialized result object if an error did not occur.\r                     See {@link OperationEntityListResult} for more\r                     information.\r\r                     {object} [request]  - The HTTP Request object if an error did not occur.\r\r                     {stream} [response] - The HTTP Response stream if an error did not occur."
+      }
+    ],
+    "meta": {
+      "lineno": 351,
+      "filename": "operations.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\operations"
+    },
+    "order": 23
+  },
+  {
+    "id": "Operations#listNextWithHttpOperationResponse",
+    "longname": "Operations#listNextWithHttpOperationResponse",
+    "name": "listNextWithHttpOperationResponse",
+    "kind": "function",
+    "scope": "instance",
+    "description": "Lists all the available Advisor REST API operations.",
+    "memberof": "Operations",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "description": "The NextLink from the previous successful call\rto List operation.",
+        "name": "nextPageLink"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Optional Parameters.",
+        "name": "options"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Headers that will be added to the\rrequest",
+        "name": "options.customHeaders"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "Promise"
+          ]
+        },
+        "description": "A promise is returned"
+      }
+    ],
+    "customTags": [
+      {
+        "tag": "resolve",
+        "value": "{HttpOperationResponse<OperationEntityListResult>} - The deserialized result object."
+      },
+      {
+        "tag": "reject",
+        "value": "{Error} - The error object."
+      }
+    ],
+    "meta": {
+      "lineno": 388,
+      "filename": "operations.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\operations"
+    },
+    "order": 24
+  },
+  {
+    "id": "Operations#listNext",
+    "longname": "Operations#listNext",
+    "name": "listNext",
+    "kind": "function",
+    "scope": "instance",
+    "description": "Lists all the available Advisor REST API operations.",
+    "memberof": "Operations",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "description": "The NextLink from the previous successful call\rto List operation.",
+        "name": "nextPageLink"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Optional Parameters.",
+        "name": "options"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Headers that will be added to the\rrequest",
+        "name": "options.customHeaders"
+      },
+      {
+        "type": {
+          "names": [
+            "function"
+          ]
+        },
+        "optional": true,
+        "description": "The optional callback.",
+        "name": "optionalCallback"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "function",
+            "Promise"
+          ]
+        },
+        "description": "If a callback was passed as the last parameter\rthen it returns the callback else returns a Promise.\r\r{Promise} A promise is returned"
+      }
+    ],
+    "customTags": [
+      {
+        "tag": "resolve",
+        "value": "{OperationEntityListResult} - The deserialized result object."
+      },
+      {
+        "tag": "reject",
+        "value": "{Error} - The error object.\r\r{function} optionalCallback(err, result, request, response)\r\r                     {Error}  err        - The Error object if an error occurred, null otherwise.\r\r                     {object} [result]   - The deserialized result object if an error did not occur.\r                     See {@link OperationEntityListResult} for more\r                     information.\r\r                     {object} [request]  - The HTTP Request object if an error did not occur.\r\r                     {stream} [response] - The HTTP Response stream if an error did not occur."
+      }
+    ],
+    "meta": {
+      "lineno": 436,
+      "filename": "operations.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\operations"
+    },
+    "order": 25
+  },
+  {
+    "id": "Recommendations#generateWithHttpOperationResponse",
+    "longname": "Recommendations#generateWithHttpOperationResponse",
+    "name": "generateWithHttpOperationResponse",
+    "kind": "function",
+    "scope": "instance",
+    "description": "Initiates the recommendation generation or computation process for a\rsubscription. This operation is asynchronous. The generated recommendations\rare stored in a cache in the Advisor service.",
+    "memberof": "Recommendations",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Optional Parameters.",
+        "name": "options"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Headers that will be added to the\rrequest",
+        "name": "options.customHeaders"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "Promise"
+          ]
+        },
+        "description": "A promise is returned"
+      }
+    ],
+    "customTags": [
+      {
+        "tag": "resolve",
+        "value": "{HttpOperationResponse<null>} - The deserialized result object."
+      },
+      {
+        "tag": "reject",
+        "value": "{Error} - The error object."
+      }
+    ],
+    "meta": {
+      "lineno": 730,
+      "filename": "recommendations.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\operations"
+    },
+    "order": 33
+  },
+  {
+    "id": "Recommendations#generate",
+    "longname": "Recommendations#generate",
+    "name": "generate",
+    "kind": "function",
+    "scope": "instance",
+    "description": "Initiates the recommendation generation or computation process for a\rsubscription. This operation is asynchronous. The generated recommendations\rare stored in a cache in the Advisor service.",
+    "memberof": "Recommendations",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Optional Parameters.",
+        "name": "options"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Headers that will be added to the\rrequest",
+        "name": "options.customHeaders"
+      },
+      {
+        "type": {
+          "names": [
+            "function"
+          ]
+        },
+        "optional": true,
+        "description": "The optional callback.",
+        "name": "optionalCallback"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "function",
+            "Promise"
+          ]
+        },
+        "description": "If a callback was passed as the last parameter\rthen it returns the callback else returns a Promise.\r\r{Promise} A promise is returned"
+      }
+    ],
+    "customTags": [
+      {
+        "tag": "resolve",
+        "value": "{null} - The deserialized result object."
+      },
+      {
+        "tag": "reject",
+        "value": "{Error} - The error object.\r\r{function} optionalCallback(err, result, request, response)\r\r                     {Error}  err        - The Error object if an error occurred, null otherwise.\r\r                     {null} [result]   - The deserialized result object if an error did not occur.\r\r                     {object} [request]  - The HTTP Request object if an error did not occur.\r\r                     {stream} [response] - The HTTP Response stream if an error did not occur."
+      }
+    ],
+    "meta": {
+      "lineno": 775,
+      "filename": "recommendations.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\operations"
+    },
+    "order": 34
+  },
+  {
+    "id": "Recommendations#getGenerateStatusWithHttpOperationResponse",
+    "longname": "Recommendations#getGenerateStatusWithHttpOperationResponse",
+    "name": "getGenerateStatusWithHttpOperationResponse",
+    "kind": "function",
+    "scope": "instance",
+    "description": "Retrieves the status of the recommendation computation or generation\rprocess. Invoke this API after calling the generation recommendation. The\rURI of this API is returned in the Location field of the response header.",
+    "memberof": "Recommendations",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "uuid"
+          ]
+        },
+        "description": "The operation ID, which can be found from the\rLocation field in the generate recommendation response header.",
+        "name": "operationId"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Optional Parameters.",
+        "name": "options"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Headers that will be added to the\rrequest",
+        "name": "options.customHeaders"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "Promise"
+          ]
+        },
+        "description": "A promise is returned"
+      }
+    ],
+    "customTags": [
+      {
+        "tag": "resolve",
+        "value": "{HttpOperationResponse<null>} - The deserialized result object."
+      },
+      {
+        "tag": "reject",
+        "value": "{Error} - The error object."
+      }
+    ],
+    "meta": {
+      "lineno": 814,
+      "filename": "recommendations.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\operations"
+    },
+    "order": 35
+  },
+  {
+    "id": "Recommendations#getGenerateStatus",
+    "longname": "Recommendations#getGenerateStatus",
+    "name": "getGenerateStatus",
+    "kind": "function",
+    "scope": "instance",
+    "description": "Retrieves the status of the recommendation computation or generation\rprocess. Invoke this API after calling the generation recommendation. The\rURI of this API is returned in the Location field of the response header.",
+    "memberof": "Recommendations",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "uuid"
+          ]
+        },
+        "description": "The operation ID, which can be found from the\rLocation field in the generate recommendation response header.",
+        "name": "operationId"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Optional Parameters.",
+        "name": "options"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Headers that will be added to the\rrequest",
+        "name": "options.customHeaders"
+      },
+      {
+        "type": {
+          "names": [
+            "function"
+          ]
+        },
+        "optional": true,
+        "description": "The optional callback.",
+        "name": "optionalCallback"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "function",
+            "Promise"
+          ]
+        },
+        "description": "If a callback was passed as the last parameter\rthen it returns the callback else returns a Promise.\r\r{Promise} A promise is returned"
+      }
+    ],
+    "customTags": [
+      {
+        "tag": "resolve",
+        "value": "{null} - The deserialized result object."
+      },
+      {
+        "tag": "reject",
+        "value": "{Error} - The error object.\r\r{function} optionalCallback(err, result, request, response)\r\r                     {Error}  err        - The Error object if an error occurred, null otherwise.\r\r                     {null} [result]   - The deserialized result object if an error did not occur.\r\r                     {object} [request]  - The HTTP Request object if an error did not occur.\r\r                     {stream} [response] - The HTTP Response stream if an error did not occur."
+      }
+    ],
+    "meta": {
+      "lineno": 862,
+      "filename": "recommendations.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\operations"
+    },
+    "order": 36
+  },
+  {
+    "id": "Recommendations#listWithHttpOperationResponse",
+    "longname": "Recommendations#listWithHttpOperationResponse",
+    "name": "listWithHttpOperationResponse",
+    "kind": "function",
+    "scope": "instance",
+    "description": "Obtains cached recommendations for a subscription. The recommendations are\rgenerated or computed by invoking generateRecommendations.",
+    "memberof": "Recommendations",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Optional Parameters.",
+        "name": "options"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "optional": true,
+        "description": "The filter to apply to the recommendations.",
+        "name": "options.filter"
+      },
+      {
+        "type": {
+          "names": [
+            "number"
+          ]
+        },
+        "optional": true,
+        "description": "The number of recommendations per page if a\rpaged version of this API is being used.",
+        "name": "options.top"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "optional": true,
+        "description": "The page-continuation token to use with\ra paged version of this API.",
+        "name": "options.skipToken"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Headers that will be added to the\rrequest",
+        "name": "options.customHeaders"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "Promise"
+          ]
+        },
+        "description": "A promise is returned"
+      }
+    ],
+    "customTags": [
+      {
+        "tag": "resolve",
+        "value": "{HttpOperationResponse<ResourceRecommendationBaseListResult>} - The deserialized result object."
+      },
+      {
+        "tag": "reject",
+        "value": "{Error} - The error object."
+      }
+    ],
+    "meta": {
+      "lineno": 905,
+      "filename": "recommendations.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\operations"
+    },
+    "order": 37
+  },
+  {
+    "id": "Recommendations#list",
+    "longname": "Recommendations#list",
+    "name": "list",
+    "kind": "function",
+    "scope": "instance",
+    "description": "Obtains cached recommendations for a subscription. The recommendations are\rgenerated or computed by invoking generateRecommendations.",
+    "memberof": "Recommendations",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Optional Parameters.",
+        "name": "options"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "optional": true,
+        "description": "The filter to apply to the recommendations.",
+        "name": "options.filter"
+      },
+      {
+        "type": {
+          "names": [
+            "number"
+          ]
+        },
+        "optional": true,
+        "description": "The number of recommendations per page if a\rpaged version of this API is being used.",
+        "name": "options.top"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "optional": true,
+        "description": "The page-continuation token to use with\ra paged version of this API.",
+        "name": "options.skipToken"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Headers that will be added to the\rrequest",
+        "name": "options.customHeaders"
+      },
+      {
+        "type": {
+          "names": [
+            "function"
+          ]
+        },
+        "optional": true,
+        "description": "The optional callback.",
+        "name": "optionalCallback"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "function",
+            "Promise"
+          ]
+        },
+        "description": "If a callback was passed as the last parameter\rthen it returns the callback else returns a Promise.\r\r{Promise} A promise is returned"
+      }
+    ],
+    "customTags": [
+      {
+        "tag": "resolve",
+        "value": "{ResourceRecommendationBaseListResult} - The deserialized result object."
+      },
+      {
+        "tag": "reject",
+        "value": "{Error} - The error object.\r\r{function} optionalCallback(err, result, request, response)\r\r                     {Error}  err        - The Error object if an error occurred, null otherwise.\r\r                     {object} [result]   - The deserialized result object if an error did not occur.\r                     See {@link ResourceRecommendationBaseListResult} for\r                     more information.\r\r                     {object} [request]  - The HTTP Request object if an error did not occur.\r\r                     {stream} [response] - The HTTP Response stream if an error did not occur."
+      }
+    ],
+    "meta": {
+      "lineno": 959,
+      "filename": "recommendations.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\operations"
+    },
+    "order": 38
+  },
+  {
+    "id": "Recommendations#getWithHttpOperationResponse",
+    "longname": "Recommendations#getWithHttpOperationResponse",
+    "name": "getWithHttpOperationResponse",
+    "kind": "function",
+    "scope": "instance",
+    "description": "Obtains details of a cached recommendation.",
+    "memberof": "Recommendations",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "description": "The fully qualified Azure Resource Manager\ridentifier of the resource to which the recommendation applies.",
+        "name": "resourceUri"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "description": "The recommendation ID.",
+        "name": "recommendationId"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Optional Parameters.",
+        "name": "options"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Headers that will be added to the\rrequest",
+        "name": "options.customHeaders"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "Promise"
+          ]
+        },
+        "description": "A promise is returned"
+      }
+    ],
+    "customTags": [
+      {
+        "tag": "resolve",
+        "value": "{HttpOperationResponse<ResourceRecommendationBase>} - The deserialized result object."
+      },
+      {
+        "tag": "reject",
+        "value": "{Error} - The error object."
+      }
+    ],
+    "meta": {
+      "lineno": 998,
+      "filename": "recommendations.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\operations"
+    },
+    "order": 39
+  },
+  {
+    "id": "Recommendations#get",
+    "longname": "Recommendations#get",
+    "name": "get",
+    "kind": "function",
+    "scope": "instance",
+    "description": "Obtains details of a cached recommendation.",
+    "memberof": "Recommendations",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "description": "The fully qualified Azure Resource Manager\ridentifier of the resource to which the recommendation applies.",
+        "name": "resourceUri"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "description": "The recommendation ID.",
+        "name": "recommendationId"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Optional Parameters.",
+        "name": "options"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Headers that will be added to the\rrequest",
+        "name": "options.customHeaders"
+      },
+      {
+        "type": {
+          "names": [
+            "function"
+          ]
+        },
+        "optional": true,
+        "description": "The optional callback.",
+        "name": "optionalCallback"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "function",
+            "Promise"
+          ]
+        },
+        "description": "If a callback was passed as the last parameter\rthen it returns the callback else returns a Promise.\r\r{Promise} A promise is returned"
+      }
+    ],
+    "customTags": [
+      {
+        "tag": "resolve",
+        "value": "{ResourceRecommendationBase} - The deserialized result object."
+      },
+      {
+        "tag": "reject",
+        "value": "{Error} - The error object.\r\r{function} optionalCallback(err, result, request, response)\r\r                     {Error}  err        - The Error object if an error occurred, null otherwise.\r\r                     {object} [result]   - The deserialized result object if an error did not occur.\r                     See {@link ResourceRecommendationBase} for more\r                     information.\r\r                     {object} [request]  - The HTTP Request object if an error did not occur.\r\r                     {stream} [response] - The HTTP Response stream if an error did not occur."
+      }
+    ],
+    "meta": {
+      "lineno": 1048,
+      "filename": "recommendations.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\operations"
+    },
+    "order": 40
+  },
+  {
+    "id": "Recommendations#listNextWithHttpOperationResponse",
+    "longname": "Recommendations#listNextWithHttpOperationResponse",
+    "name": "listNextWithHttpOperationResponse",
+    "kind": "function",
+    "scope": "instance",
+    "description": "Obtains cached recommendations for a subscription. The recommendations are\rgenerated or computed by invoking generateRecommendations.",
+    "memberof": "Recommendations",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "description": "The NextLink from the previous successful call\rto List operation.",
+        "name": "nextPageLink"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Optional Parameters.",
+        "name": "options"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Headers that will be added to the\rrequest",
+        "name": "options.customHeaders"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "Promise"
+          ]
+        },
+        "description": "A promise is returned"
+      }
+    ],
+    "customTags": [
+      {
+        "tag": "resolve",
+        "value": "{HttpOperationResponse<ResourceRecommendationBaseListResult>} - The deserialized result object."
+      },
+      {
+        "tag": "reject",
+        "value": "{Error} - The error object."
+      }
+    ],
+    "meta": {
+      "lineno": 1086,
+      "filename": "recommendations.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\operations"
+    },
+    "order": 41
+  },
+  {
+    "id": "Recommendations#listNext",
+    "longname": "Recommendations#listNext",
+    "name": "listNext",
+    "kind": "function",
+    "scope": "instance",
+    "description": "Obtains cached recommendations for a subscription. The recommendations are\rgenerated or computed by invoking generateRecommendations.",
+    "memberof": "Recommendations",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "description": "The NextLink from the previous successful call\rto List operation.",
+        "name": "nextPageLink"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Optional Parameters.",
+        "name": "options"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Headers that will be added to the\rrequest",
+        "name": "options.customHeaders"
+      },
+      {
+        "type": {
+          "names": [
+            "function"
+          ]
+        },
+        "optional": true,
+        "description": "The optional callback.",
+        "name": "optionalCallback"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "function",
+            "Promise"
+          ]
+        },
+        "description": "If a callback was passed as the last parameter\rthen it returns the callback else returns a Promise.\r\r{Promise} A promise is returned"
+      }
+    ],
+    "customTags": [
+      {
+        "tag": "resolve",
+        "value": "{ResourceRecommendationBaseListResult} - The deserialized result object."
+      },
+      {
+        "tag": "reject",
+        "value": "{Error} - The error object.\r\r{function} optionalCallback(err, result, request, response)\r\r                     {Error}  err        - The Error object if an error occurred, null otherwise.\r\r                     {object} [result]   - The deserialized result object if an error did not occur.\r                     See {@link ResourceRecommendationBaseListResult} for\r                     more information.\r\r                     {object} [request]  - The HTTP Request object if an error did not occur.\r\r                     {stream} [response] - The HTTP Response stream if an error did not occur."
+      }
+    ],
+    "meta": {
+      "lineno": 1135,
+      "filename": "recommendations.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\operations"
+    },
+    "order": 42
+  },
+  {
+    "id": "Suppressions#getWithHttpOperationResponse",
+    "longname": "Suppressions#getWithHttpOperationResponse",
+    "name": "getWithHttpOperationResponse",
+    "kind": "function",
+    "scope": "instance",
+    "description": "Obtains the details of a suppression.",
+    "memberof": "Suppressions",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "description": "The fully qualified Azure Resource Manager\ridentifier of the resource to which the recommendation applies.",
+        "name": "resourceUri"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "description": "The recommendation ID.",
+        "name": "recommendationId"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "description": "The name of the suppression.",
+        "name": "name"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Optional Parameters.",
+        "name": "options"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Headers that will be added to the\rrequest",
+        "name": "options.customHeaders"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "Promise"
+          ]
+        },
+        "description": "A promise is returned"
+      }
+    ],
+    "customTags": [
+      {
+        "tag": "resolve",
+        "value": "{HttpOperationResponse<SuppressionContract>} - The deserialized result object."
+      },
+      {
+        "tag": "reject",
+        "value": "{Error} - The error object."
+      }
+    ],
+    "meta": {
+      "lineno": 660,
+      "filename": "suppressions.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\operations"
+    },
+    "order": 49
+  },
+  {
+    "id": "Suppressions#get",
+    "longname": "Suppressions#get",
+    "name": "get",
+    "kind": "function",
+    "scope": "instance",
+    "description": "Obtains the details of a suppression.",
+    "memberof": "Suppressions",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "description": "The fully qualified Azure Resource Manager\ridentifier of the resource to which the recommendation applies.",
+        "name": "resourceUri"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "description": "The recommendation ID.",
+        "name": "recommendationId"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "description": "The name of the suppression.",
+        "name": "name"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Optional Parameters.",
+        "name": "options"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Headers that will be added to the\rrequest",
+        "name": "options.customHeaders"
+      },
+      {
+        "type": {
+          "names": [
+            "function"
+          ]
+        },
+        "optional": true,
+        "description": "The optional callback.",
+        "name": "optionalCallback"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "function",
+            "Promise"
+          ]
+        },
+        "description": "If a callback was passed as the last parameter\rthen it returns the callback else returns a Promise.\r\r{Promise} A promise is returned"
+      }
+    ],
+    "customTags": [
+      {
+        "tag": "resolve",
+        "value": "{SuppressionContract} - The deserialized result object."
+      },
+      {
+        "tag": "reject",
+        "value": "{Error} - The error object.\r\r{function} optionalCallback(err, result, request, response)\r\r                     {Error}  err        - The Error object if an error occurred, null otherwise.\r\r                     {object} [result]   - The deserialized result object if an error did not occur.\r                     See {@link SuppressionContract} for more information.\r\r                     {object} [request]  - The HTTP Request object if an error did not occur.\r\r                     {stream} [response] - The HTTP Response stream if an error did not occur."
+      }
+    ],
+    "meta": {
+      "lineno": 711,
+      "filename": "suppressions.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\operations"
+    },
+    "order": 50
+  },
+  {
+    "id": "Suppressions#createWithHttpOperationResponse",
+    "longname": "Suppressions#createWithHttpOperationResponse",
+    "name": "createWithHttpOperationResponse",
+    "kind": "function",
+    "scope": "instance",
+    "description": "Enables the snoozed or dismissed attribute of a recommendation. The snoozed\ror dismissed attribute is referred to as a suppression. Use this API to\rcreate or update the snoozed or dismissed status of a recommendation.",
+    "memberof": "Suppressions",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "description": "The fully qualified Azure Resource Manager\ridentifier of the resource to which the recommendation applies.",
+        "name": "resourceUri"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "description": "The recommendation ID.",
+        "name": "recommendationId"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "description": "The name of the suppression.",
+        "name": "name"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "description": "The snoozed or dismissed attribute; for\rexample, the snooze duration.",
+        "name": "suppressionContract"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "optional": true,
+        "description": "The GUID of the\rsuppression.",
+        "name": "suppressionContract.suppressionId"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "optional": true,
+        "description": "The duration for which the\rsuppression is valid.",
+        "name": "suppressionContract.ttl"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Optional Parameters.",
+        "name": "options"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Headers that will be added to the\rrequest",
+        "name": "options.customHeaders"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "Promise"
+          ]
+        },
+        "description": "A promise is returned"
+      }
+    ],
+    "customTags": [
+      {
+        "tag": "resolve",
+        "value": "{HttpOperationResponse<SuppressionContract>} - The deserialized result object."
+      },
+      {
+        "tag": "reject",
+        "value": "{Error} - The error object."
+      }
+    ],
+    "meta": {
+      "lineno": 763,
+      "filename": "suppressions.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\operations"
+    },
+    "order": 51
+  },
+  {
+    "id": "Suppressions#create",
+    "longname": "Suppressions#create",
+    "name": "create",
+    "kind": "function",
+    "scope": "instance",
+    "description": "Enables the snoozed or dismissed attribute of a recommendation. The snoozed\ror dismissed attribute is referred to as a suppression. Use this API to\rcreate or update the snoozed or dismissed status of a recommendation.",
+    "memberof": "Suppressions",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "description": "The fully qualified Azure Resource Manager\ridentifier of the resource to which the recommendation applies.",
+        "name": "resourceUri"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "description": "The recommendation ID.",
+        "name": "recommendationId"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "description": "The name of the suppression.",
+        "name": "name"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "description": "The snoozed or dismissed attribute; for\rexample, the snooze duration.",
+        "name": "suppressionContract"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "optional": true,
+        "description": "The GUID of the\rsuppression.",
+        "name": "suppressionContract.suppressionId"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "optional": true,
+        "description": "The duration for which the\rsuppression is valid.",
+        "name": "suppressionContract.ttl"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Optional Parameters.",
+        "name": "options"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Headers that will be added to the\rrequest",
+        "name": "options.customHeaders"
+      },
+      {
+        "type": {
+          "names": [
+            "function"
+          ]
+        },
+        "optional": true,
+        "description": "The optional callback.",
+        "name": "optionalCallback"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "function",
+            "Promise"
+          ]
+        },
+        "description": "If a callback was passed as the last parameter\rthen it returns the callback else returns a Promise.\r\r{Promise} A promise is returned"
+      }
+    ],
+    "customTags": [
+      {
+        "tag": "resolve",
+        "value": "{SuppressionContract} - The deserialized result object."
+      },
+      {
+        "tag": "reject",
+        "value": "{Error} - The error object.\r\r{function} optionalCallback(err, result, request, response)\r\r                     {Error}  err        - The Error object if an error occurred, null otherwise.\r\r                     {object} [result]   - The deserialized result object if an error did not occur.\r                     See {@link SuppressionContract} for more information.\r\r                     {object} [request]  - The HTTP Request object if an error did not occur.\r\r                     {stream} [response] - The HTTP Response stream if an error did not occur."
+      }
+    ],
+    "meta": {
+      "lineno": 825,
+      "filename": "suppressions.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\operations"
+    },
+    "order": 52
+  },
+  {
+    "id": "Suppressions#deleteMethodWithHttpOperationResponse",
+    "longname": "Suppressions#deleteMethodWithHttpOperationResponse",
+    "name": "deleteMethodWithHttpOperationResponse",
+    "kind": "function",
+    "scope": "instance",
+    "description": "Enables the activation of a snoozed or dismissed recommendation. The snoozed\ror dismissed attribute of a recommendation is referred to as a suppression.",
+    "memberof": "Suppressions",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "description": "The fully qualified Azure Resource Manager\ridentifier of the resource to which the recommendation applies.",
+        "name": "resourceUri"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "description": "The recommendation ID.",
+        "name": "recommendationId"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "description": "The name of the suppression.",
+        "name": "name"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Optional Parameters.",
+        "name": "options"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Headers that will be added to the\rrequest",
+        "name": "options.customHeaders"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "Promise"
+          ]
+        },
+        "description": "A promise is returned"
+      }
+    ],
+    "customTags": [
+      {
+        "tag": "resolve",
+        "value": "{HttpOperationResponse<null>} - The deserialized result object."
+      },
+      {
+        "tag": "reject",
+        "value": "{Error} - The error object."
+      }
+    ],
+    "meta": {
+      "lineno": 867,
+      "filename": "suppressions.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\operations"
+    },
+    "order": 53
+  },
+  {
+    "id": "Suppressions#deleteMethod",
+    "longname": "Suppressions#deleteMethod",
+    "name": "deleteMethod",
+    "kind": "function",
+    "scope": "instance",
+    "description": "Enables the activation of a snoozed or dismissed recommendation. The snoozed\ror dismissed attribute of a recommendation is referred to as a suppression.",
+    "memberof": "Suppressions",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "description": "The fully qualified Azure Resource Manager\ridentifier of the resource to which the recommendation applies.",
+        "name": "resourceUri"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "description": "The recommendation ID.",
+        "name": "recommendationId"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ]
+        },
+        "description": "The name of the suppression.",
+        "name": "name"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Optional Parameters.",
+        "name": "options"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Headers that will be added to the\rrequest",
+        "name": "options.customHeaders"
+      },
+      {
+        "type": {
+          "names": [
+            "function"
+          ]
+        },
+        "optional": true,
+        "description": "The optional callback.",
+        "name": "optionalCallback"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "function",
+            "Promise"
+          ]
+        },
+        "description": "If a callback was passed as the last parameter\rthen it returns the callback else returns a Promise.\r\r{Promise} A promise is returned"
+      }
+    ],
+    "customTags": [
+      {
+        "tag": "resolve",
+        "value": "{null} - The deserialized result object."
+      },
+      {
+        "tag": "reject",
+        "value": "{Error} - The error object.\r\r{function} optionalCallback(err, result, request, response)\r\r                     {Error}  err        - The Error object if an error occurred, null otherwise.\r\r                     {null} [result]   - The deserialized result object if an error did not occur.\r\r                     {object} [request]  - The HTTP Request object if an error did not occur.\r\r                     {stream} [response] - The HTTP Response stream if an error did not occur."
+      }
+    ],
+    "meta": {
+      "lineno": 918,
+      "filename": "suppressions.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\operations"
+    },
+    "order": 54
+  },
+  {
+    "id": "Suppressions#listWithHttpOperationResponse",
+    "longname": "Suppressions#listWithHttpOperationResponse",
+    "name": "listWithHttpOperationResponse",
+    "kind": "function",
+    "scope": "instance",
+    "description": "Retrieves the list of snoozed or dismissed suppressions for a subscription.\rThe snoozed or dismissed attribute of a recommendation is referred to as a\rsuppression.",
+    "memberof": "Suppressions",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Optional Parameters.",
+        "name": "options"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Headers that will be added to the\rrequest",
+        "name": "options.customHeaders"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "Promise"
+          ]
+        },
+        "description": "A promise is returned"
+      }
+    ],
+    "customTags": [
+      {
+        "tag": "resolve",
+        "value": "{HttpOperationResponse<Array>} - The deserialized result object."
+      },
+      {
+        "tag": "reject",
+        "value": "{Error} - The error object."
+      }
+    ],
+    "meta": {
+      "lineno": 954,
+      "filename": "suppressions.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\operations"
+    },
+    "order": 55
+  },
+  {
+    "id": "Suppressions#list",
+    "longname": "Suppressions#list",
+    "name": "list",
+    "kind": "function",
+    "scope": "instance",
+    "description": "Retrieves the list of snoozed or dismissed suppressions for a subscription.\rThe snoozed or dismissed attribute of a recommendation is referred to as a\rsuppression.",
+    "memberof": "Suppressions",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Optional Parameters.",
+        "name": "options"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ]
+        },
+        "optional": true,
+        "description": "Headers that will be added to the\rrequest",
+        "name": "options.customHeaders"
+      },
+      {
+        "type": {
+          "names": [
+            "function"
+          ]
+        },
+        "optional": true,
+        "description": "The optional callback.",
+        "name": "optionalCallback"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "function",
+            "Promise"
+          ]
+        },
+        "description": "If a callback was passed as the last parameter\rthen it returns the callback else returns a Promise.\r\r{Promise} A promise is returned"
+      }
+    ],
+    "customTags": [
+      {
+        "tag": "resolve",
+        "value": "{Array} - The deserialized result object."
+      },
+      {
+        "tag": "reject",
+        "value": "{Error} - The error object.\r\r{function} optionalCallback(err, result, request, response)\r\r                     {Error}  err        - The Error object if an error occurred, null otherwise.\r\r                     {array} [result]   - The deserialized result object if an error did not occur.\r\r                     {object} [request]  - The HTTP Request object if an error did not occur.\r\r                     {stream} [response] - The HTTP Response stream if an error did not occur."
+      }
+    ],
+    "meta": {
+      "lineno": 999,
+      "filename": "suppressions.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\operations"
+    },
+    "order": 56
+  },
+  {
+    "id": "display.resource",
+    "longname": "display.resource",
+    "name": "resource",
+    "kind": "member",
+    "scope": "static",
+    "classdesc": "Initializes a new instance of the OperationEntity class.",
+    "description": "Operation name: {provider}/{resource}/{operation}.",
+    "memberof": "display",
+    "type": {
+      "names": [
+        "string"
+      ]
+    },
+    "optional": true,
+    "meta": {
+      "lineno": 15,
+      "filename": "operationEntity.js",
+      "path": "D:\\Git\\azure-sdk-for-node\\lib\\services\\advisorManagement\\lib\\models"
+    },
+    "order": 4
+  }
+]
